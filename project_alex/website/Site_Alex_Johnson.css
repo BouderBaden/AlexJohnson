@@ -1,0 +1,246 @@
+html {
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    color: #414546eb;
+    background-color: white;
+    margin: auto;
+    border-color: lightgray;
+    font-family: 'Roboto';
+}
+
+p {
+    font-size: 21px;
+}
+
+/*********Header**********/
+header {
+    text-align: right;
+    background-color: white;
+    clear: both;
+    height: 199px;
+}
+
+#headerleft {
+    float: left;
+}
+
+/* Image Logo Apple*/
+#Apple {
+    padding: 34px;
+    margin-left: 99px;
+    height: 118px;
+    width: 95px;
+    opacity: 0.8;
+}
+
+/**/
+#buttontop {
+    float: right;
+    padding-top: 58px;
+    padding-right: 152px;
+    letter-spacing: 0px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border: none;
+    padding: 16px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    transition-duration: 0.4s;
+    cursor: auto;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+/*
+button:hover{
+    border-bottom: 2px solid gray;
+}
+*/
+#accueil {
+    border-bottom: 2px solid gray;
+}
+
+/*********Ligne du milieu**********/
+.mid {
+    padding-left: 30px;
+
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("Integration-projet/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+    background-size: cover;
+}
+
+#floatpfp {
+    position: absolute;
+    top: 370px;
+    float: right;
+    right: 277px;
+    clear: both;
+}
+
+#pfp {
+    position: sticky;
+    height: 470px;
+    opacity: 0.82;
+    border: 30px solid;
+    border-color: rgba(198, 202, 203, 0.8);
+    border-radius: 50%;
+    outline: 30px solid;
+    outline-color: rgba(204, 204, 204, 0.34);
+}
+
+.contentpfp {
+    padding-top: 182px;
+    padding-left: 112px;
+    padding-bottom: 80px;
+}
+
+/* Image Bonjour*/
+#Bonjour {
+    height: 54px;
+    width: 170px;
+    opacity: 0.9;
+}
+
+/*Titre Alex Johson*/
+h1 {
+    font-size: 85px;
+    margin: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/*Titre A votre service*/
+h2 {
+    margin-top: 12px;
+    margin-bottom: 49px;
+    font-size: 38px;
+}
+
+.iconprofile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 25px;
+}
+
+.iconprofile p {
+    padding-left: 21px;
+    margin: 0;
+}
+
+/*Image Mail*/
+#Mail {
+    height: 22px;
+    width: 21px;
+}
+
+/*Image Telephone*/
+#Telephone {
+    height: 16px;
+    width: 16px;
+
+}
+
+/*Image Adresse*/
+#Adresse {
+    height: 17px;
+    width: 17px;
+    margin-left: -3px;
+}
+
+/*Image Logo*/
+#Logo {
+    width: 16%;
+    padding-top: 33px;
+    margin-left: 7px;
+}
+
+/*********Partie Bottom**********/
+.bottom {
+    display: flex;
+    margin: 142px;
+    margin-top: 107px;
+    margin-bottom: 45px;
+}
+
+/*Image Profil */
+#Profil {
+    padding-bottom: 30px;
+    height: 487px;
+    width: auto;
+    opacity: 0.9;
+}
+
+/*Texte du bas*/
+#Textbottom {
+    float: right;
+    padding-left: 117px;
+}
+
+/*Titre A propos de moi*/
+h3 {
+    margin-top: 26px;
+    margin-bottom: 33px;
+    font-size: 45px;
+}
+
+#Textbottom p {
+    line-height: 35px;
+}
+
+/*Etiquette compétences*/
+#Etiquette {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 54px;
+}
+
+span {
+    margin-right: 20px;
+    border: 2px solid #59d7bf;
+    padding: 6px 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+/*Button téléchargement*/
+#BottomCV {
+    height: 60px;
+    width: 20rem;
+    border-radius: 5rem 5rem 5rem 5rem;
+    padding-left: 50px;
+    right: 3%;
+    background-color: #59d7bf;
+    display: flex;
+    font-weight: 500;
+}
+
+#BottomCV p {
+    margin: -5px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+/*Image Téléchargement*/
+#Telechargement {
+    width: 22px;
+    height: 22px;
+    padding-left: 2px;
+    padding-top: 2px;
+}

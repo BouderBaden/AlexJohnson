@@ -1,0 +1,17 @@
+ALGO somme
+VAR	nombre : entier
+	somme : entier
+DEBUT
+AFFICHER "Saisissez une série de nombres entiers positifs, je ferais leurs somme"
+SAISIR nombre
+somme := 0
+TANT QUE nombre <> 0 FAIRE
+	TANT QUE nombre <0 FAIRE
+		AFFICHER "erreur"
+		SAISIR nombre
+	FIN TANT QUE
+	somme := somme + nombre
+	AFFICHER "Continuez "
+	SAISIR nombre
+FIN TANT QUE
+FIN
